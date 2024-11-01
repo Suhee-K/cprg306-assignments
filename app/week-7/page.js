@@ -6,10 +6,10 @@ import NewItem from "./new-item";
 import itemsData from "./items.json";
 
 export default function Page() {
-  const [items, setItems] = useState([...itemsData]);
+  const [items, setItems] = useState(itemsData);
 
-  const handleAddItem = (item) => {
-    setItems((prevItems) => [...prevItems, item]);
+  const handleAddItem = (newItem) => {
+    setItems((prevItems) => [...prevItems, newItem]);
   };
 
   return (

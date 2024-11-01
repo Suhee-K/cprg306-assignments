@@ -36,7 +36,7 @@ export default function NewItem({ onAddItem }) {
   }
 
   return (
-    <div className="mx-auto mb-10 w-full max-w-sm p-2">
+    <div className="ml-20 mb-10 w-full max-w-sm">
       <form onSubmit={handleSubmit}>
         <div>
           <input
